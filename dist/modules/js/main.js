@@ -1,0 +1,1 @@
+define("modules/js/main",function(n,o){"use strict";var u={init:function(){n(["modules/js/jquery","modules/js/fullpage"],function(n){n(document).ready(function(){n(".full").fullpage({sectionsColor:["#1bbc9b","#4BBFC3","#7BAABE","#f90"]})})})}},e={init:function(o){n(["modules/js/jquery"],function(n){n(document).ready(function(){console.log(o)})})}};o.index=u,o.about=e});

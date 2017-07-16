@@ -1,0 +1,16 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+#header{
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	width:100%;
+	background: rgba(0,0,0,.8);
+	li{
+		padding: 20px;
+		border-right: 1px solid #fff;
+		float: left
+	}
+}

@@ -1,0 +1,13 @@
+@import "variables.scss";
+@import "mixins.scss";
+
+@import "../css/fullpage.css";
+.index{
+	background: $brand;
+	.section{
+		
+		&.one{
+
+		}
+	}
+}

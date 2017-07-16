@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+    <link rel="stylesheet" href="pkg/css/common.css" />
+    <link rel="stylesheet" href="pkg/css/modules.css" />
+</head>
+<body>
+
+<div id="header">
+	我是header该
+</div>
+
+
+<div class="about">
+	<h1>关于我们</h1>
+</div>
+	<div class="footer">
+	我是footer
+</div>
+	<script src="pkg/lib/mod.js"></script>
+<script type="text/javascript" src="pkg/js/modules.js"></script>
+<script>
+	var about = require('modules/js/main');
+	about.about.init('ok');
+</script>
+</body>
+</html>
