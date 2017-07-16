@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="fullpage.css">
+</head>
+<body>
+	<div class="full">
+		<div class="section section1">Page One</div>
+		<div class="section section2">Page Two</div>
+		<div class="section section3">Page Three</div>
+		<div class="section section4">Page Four</div>
+	</div>
+
+	<script src="jquery.js"></script>
+	<script src="fullpage.js"></script>
+	<script>
+		$(document).ready(function(){
+				$('.full').fullpage({
+					sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90']
+				})
+			})
+	</script>
+</body>
+</html>
