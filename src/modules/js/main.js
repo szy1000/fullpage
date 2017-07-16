@@ -4,13 +4,21 @@ var index = {
 		require(['jquery','fullpage'],function($,full){
 			$(document).ready(function(){
 				$('.full').fullpage({
-					sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90'],
-					navigation: true
+					sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#f90','#d30'],
+					navigation: true,
+					anchors: ['page1','page2','page3','page4','page5'],
+					menu: '.menu',
+					afterLoad: function(anchorLink,index){
+						if(index == 1){
+							$('.section1').addClass('on');
+						}
+					}
 				})
 			})
 		})
 	}
 }
+
 //about
 var about = {
 	init: function(num) {
